@@ -1,0 +1,679 @@
+body{
+	background-image: none;
+	background-color: #ddd;
+}
+
+#header{
+	padding-top: 0px;
+}
+
+#header a:focus,
+#header a:hover,
+#header a:visited {
+    text-decoration: none;
+}
+
+#header.alt {
+	color: #777;
+	margin: auto;
+}
+
+#header .logo img{
+	margin: auto;
+}
+
+#header.alt span.logo{
+	margin-bottom: .5em;
+}
+
+#header p.slogan{
+	margin-top: 0;
+	color: #589d3e;
+}
+
+#header p.callNow{
+	color: #383838;
+	font-size: 1.5em;
+}
+
+#header p{
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+#header a:hover,
+#header a:hover .fa-2x {
+	color: #919191;
+}
+
+#header .callLink{
+	pointer-events: none;
+	color: #383838;
+	vertical-align: .5em;
+    font-size: 1.5em;
+}
+
+#header .fa-2x{
+	color: #383838;
+    font-size: 1.3em;
+    padding-right: .3em;
+}
+
+#header .slogan {
+	font-style: italic;
+}
+
+.centerContent{
+	text-align: center;
+}
+
+.noMargin{
+	margin:0px;
+}
+
+.container{
+	width: 100%;
+}
+
+/* Nav */
+
+nav{
+	position: absolute;
+	max-width: calc(100% - 4em);
+}
+
+nav,
+nav.alt{
+	background-color: #62af45;
+	color: white;
+	padding: 0px;
+}
+
+nav.alt{
+	position: fixed;
+	max-width: inherit;
+}
+
+nav a:visited,
+nav a:hover,
+nav a:focus{
+	color: white;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+nav.alt .desktop a,
+nav .desktop a {
+    padding-top: 0.9em;
+    padding-bottom: 0.91em;
+    border-radius: 3px;
+    height: inherit;
+    border: none;
+    text-decoration: none;
+}
+
+nav.alt .desktop ul li a {
+    padding-bottom: 0.9em;
+}
+
+nav .navLinkContainer span:before{
+	padding-right: 15px;
+}
+
+nav .btn-group{
+	width: 100%;
+}
+
+#navMobile .mobileNavButton{
+	width: 100%;
+	text-align: right;
+}
+
+#navMobile .mobile button{
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#navMobile .mobile button:focus{
+    outline: none;
+}
+
+
+#navMobile .mobile ul li{
+	margin: 0px;
+	display: block;
+}
+
+#navMobile .mobile ul li a{
+	border-radius: 0px;
+	width: 100%;
+}
+
+nav ul li a.active{
+	background-color: #43782f;
+    color: white;
+}
+
+nav .fullHeight{
+	height: inherit;
+}
+
+nav.alt .navLogoContainer,
+nav.alt .navListContainer,
+nav.alt .navLinkContainer{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav.alt .navListContainer{
+	margin-left: 6em;
+	margin-right: 6em;
+}
+
+nav .navLogoContainer,
+nav .navLinkContainer{
+	display: none;
+}
+
+nav.alt .logo img{
+	padding-top: .3em;
+}
+
+nav + #main {
+    padding-top: 4em;
+}
+
+.four div.mobile,
+.five div.mobile,
+.three div.mobile,
+.two div.mobile#ourClients,
+.two div.mobile#ourServices{
+	display: none;
+	background: url("");
+}
+
+.two div#ourServices{
+	background-position: center; 
+	display: inline-block;
+	background: url(../resources/images/ourservices.jpg);
+}
+
+.two div#ourClients{
+	background-position: center; 
+	display: inline-block;
+	background: url(../resources/images/ourclients.jpg);
+}
+
+.four div.desktop{
+	background-position: center; 
+	display: inline-block;
+	background: url(../resources/images/quote.jpg);
+}
+
+.five div.desktop{
+	background-position: center; 
+	display: inline-block;
+	background: url(../resources/images/callgirl.png);
+}
+
+.mobile,
+nav#navMobile {
+	display: none;
+}
+
+/* carousel */
+.carousel-caption {
+    max-width: 100%;
+    width:100%;
+    bottom: 0px;
+    background-color: white;
+    text-shadow: none;
+    left: 0;
+}
+
+.carousel-indicators{
+	margin-bottom: -10px;
+}
+
+.carousel-indicators li.active{
+	border: 1px solid #636363;
+	background-color: #636363;
+}
+
+#myCarousel .carousel-inner #before{
+	display: inline-block;
+    float: left;
+    font-size: 1.5em;
+    padding-left: 10em;
+    margin-bottom: 0;
+}
+
+#myCarousel .carousel-inner #after{
+	display: inline-block;
+	float: right;
+	font-size: 1.5em;
+    padding-right: 10em;
+    margin-bottom: 0;
+}
+
+#myCarousel .carousel-inner{
+    height: 100%;
+}
+
+.carousel-indicators li{
+	border: 1px solid #636363;
+}
+
+#myCarousel .carousel-control{
+	border: none;
+}
+
+#myCarousel .carousel-inner .item img{
+	min-height: 200px;
+}
+
+#main .one #aboutUsHeader{
+	background: url(../resources/images/h1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#main .two .sectionHeader{
+	background: url(../resources/images/h2.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#main .three #sectionHeader{
+	background: url(../resources/images/h3.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#main .four .sectionHeader{
+	background: url(../resources/images/h4.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#main .five .sectionHeader{
+	background: url(../resources/images/h1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#main .one,
+#main .two,
+#main .three,
+#main .four,
+#main .five{
+	font-size: 1.1em;
+}
+
+#main h1{
+	text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* List */
+ul.icons a {
+	width: 1.75em;
+	font-size: 1.25em;
+}
+
+#main .four h1{
+	text-align: center;
+	margin-bottom: 0.3em;
+	padding-bottom: 0em;
+	padding-top: 1em;
+}
+#main .four h3{
+	padding-bottom: 1.5em;
+	margin-bottom: 1em;
+}
+#main .four #quoteTextArea{
+	resize: none;
+}
+
+#main .four .modal-dialog{
+	margin-top: 5em;
+}
+
+#main .four .modal-body,
+#main .four h3.info-panel-title{
+    padding-bottom: 0; 
+    margin-bottom: 0; 
+}
+
+#main .four button.close{
+	width: 50px;
+    height: 50px;
+    min-width: 50px;
+}
+
+#main .four button[type=submit]{
+	font-size: 17px;
+}
+
+#main .four .bootstrap-filestyle.input-group{
+	display: block;
+}
+
+#main .four .buttonText{
+	margin-left: .5em;
+    margin-right: 1em;
+}
+
+#main .four .btn-warning{
+	border-color: #e2c802;
+}
+
+#main .five{
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+#main .five #facebook{
+	color: #898989;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#main .five a#facebook:hover{
+    color: #4267b2;
+}
+
+#main .five a#google-plus{
+	color: #898989;
+}
+
+#main .five a:focus{
+    outline: none;
+}
+
+#main .five a:visited,
+#main .five a:hover,
+#main .five a{
+	color: #636363;
+	text-decoration: none;
+    border-bottom: none;
+}
+
+#main .five a#google-plus:hover{
+	color: #db4437;
+}
+
+#main .five .col-xs-12.firstCol,
+#main .five .col-xs-12.secondCol,
+#main .five .col-xs-12.thirdCol{
+	padding-bottom: 1em;
+}
+
+#main .four .addMarginBottom,
+#main .five .addMarginBottom{
+	margin-bottom: 1.5em
+}
+
+#main .five #callGirl,
+#main .four #quoteImage,
+#main .three #ourClients,
+#main .two #ourClients,
+#main .two #ourServices{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+
+#main .two #ourServices,
+#main .two #ourClients{
+	margin-left: -20px;
+}
+
+#main .one .postHeader,
+#main .two .postHeader,
+#main .four .postHeader,
+#main .five .postHeader{
+	padding-top: 2em;
+}
+
+.skel-layers-ignoreHref,
+footer a{
+	border: none;
+}
+
+footer p{
+	margin-bottom: 0px;
+}
+
+footer a:hover{
+	color: #ccc;
+}
+
+footer#footer .textContainer{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer{
+	color: #777;
+}
+
+#footer #brutusApproved{
+	height: 100px;
+    margin-bottom: 1em;
+}
+
+/* Small Laptop */
+@media screen and (max-width: 956px){
+	nav.alt .navListContainer {
+	    margin-left: 2em;
+	    margin-right: 2em;
+	}
+}
+
+/* Small Laptop */
+@media screen and (max-width: 880px){
+	#header p{
+		margin-top: 0.5em;
+	}
+
+	#header.alt .logo img {
+    	max-width: 100%;
+	}
+
+	nav.alt .navListContainer{
+		margin-left: 2em;
+    	margin-right: 2em;
+	}
+
+	nav.alt .desktop ul li a {
+	    padding-left: 0.6em;
+	    padding-right: 0.6em;
+	}
+
+	#myCarousel .carousel-inner #before{
+	    padding-left: 7em;
+	}
+
+	#myCarousel .carousel-inner #after{
+	    padding-right: 7em;
+	}
+}
+
+/* Tablets and Mobile */
+@media screen and (max-width: 767px){
+
+	#header .callLink {
+		pointer-events: auto;
+	}
+
+	#myCarousel .carousel-inner{
+	    min-height: 270px;
+	    height: 46vw;
+	}
+
+	#main .three .postHeader{
+		padding-top: 2em;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	.two div.mobile#ourServices{
+		background-position: center; 
+		display: inline-block;
+		background: url(../resources/images/ourservices.jpg);
+	}
+ 
+	.three #ourClients.mobile,
+	.two #ourClients.mobile{
+		background-position: center; 
+		display: inline-block;
+		background: url(../resources/images/ourclients.jpg);
+	}
+
+	.four div.mobile{
+		background-position: center; 
+		display: inline-block;
+		background: url(../resources/images/quote.jpg);
+	}
+
+	.five div.mobile{
+		background-position: center; 
+		display: inline-block;
+		background: url(../resources/images/callgirl.png);
+	}
+
+	.five div.desktop,
+	.four div.desktop,
+	.three div.desktop,
+	.two div#ourServices.desktop,
+	.two div#ourClients.desktop{
+		display: none;
+		background: url("");
+	}
+
+	.desktop{
+		display: none;
+	}
+
+	nav#desktop {
+		display: none;
+	}
+
+	#main .three .postHeader #ourClients{
+		margin-left: 0px;
+	}
+
+
+	nav#navMobile{
+		max-width: inherit;
+		position: absolute;
+		display: block;
+	}
+
+	nav#navMobile .mobile{
+		max-width: 100%;
+		position: relative;
+	    display: block;
+	    z-index: 9999;
+	    background-color: #62af45;
+	}
+
+	nav#navMobile .mobileNavButton button{
+		min-width: 1em;
+	}
+
+	nav#navMobile.alt {
+	    position: fixed;
+	    max-width: calc(100% - 9.55vw);
+	}
+
+	nav + #main {
+	    padding-top: 3.3em;
+	}
+
+	#main .one #aboutUsHeader,
+	#main .two .sectionHeader,
+	#main .three #sectionHeader,
+	#main .four .sectionHeader,
+	#main .five .sectionHeader{
+	    margin: auto;
+		color: #636363;
+		background: url("");
+		border-bottom: 1px solid #ccc;
+	    width: 80%;
+	}
+
+	#main .two .sectionHeader h1,
+	#main .three #sectionHeader h1,
+	#main .four .sectionHeader h3,
+	#main .five .sectionHeader h1{
+		padding-bottom: .8em;
+		margin-bottom: 0em;
+	    padding-top: 0em;
+	}
+
+	#main .four .sectionHeader h1{
+		padding-top: 0em;
+	}
+
+	#main .one h1#aboutUsHeader{
+		padding-bottom: .8em;
+		margin-bottom: 0em;
+	}
+
+	#main .five h3.larger{
+		font-size: 1.6em;
+	}
+
+	.carousel-caption {
+		bottom: -65px;
+	    padding-top: 5px;
+	}
+
+	#myCarousel .carousel-inner #before{
+	    padding-left: 3em;
+	}
+
+	#myCarousel .carousel-inner #after{
+	    padding-right: 3em;
+	}
+
+	p{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	#main .five a#facebook{
+	    color: #4267b2;
+	}
+
+	#main .five a#google-plus {
+	    color: #db4437;
+	}
+}
+
+@media screen and (max-width: 700px){
+	nav#navMobile.alt{
+		max-width: inherit;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.col-xs-offset-3 {
+	    margin-left: 11.333333%;
+	}
+}
+
+@media screen and (max-width: 360px){
+	nav + #main {
+		padding-top: 3.6em;
+	}
+}
